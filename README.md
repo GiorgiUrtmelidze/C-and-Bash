@@ -1,6 +1,6 @@
 # C-and-Bash
 
-There are scripts that use OS functions to read files, directories and run specific piping commands
+There are programs that use OS functions to read files, directories and run specific piping commands
 
 ------------------------------------
 
