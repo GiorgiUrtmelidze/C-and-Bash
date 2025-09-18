@@ -38,9 +38,9 @@ void ls(char *curr_dir, int depth) {
 		if (entry->d_type == DT_DIR) {
 			char* new_dir = (char *)malloc(strlen(curr_dir) + strlen(entry->d_name) + 2);
 
-    			strcpy(new_dir, curr_dir);
+    		strcpy(new_dir, curr_dir);
 			strcat(new_dir, "/");
-    			strcat(new_dir, entry->d_name);
+    		strcat(new_dir, entry->d_name);
 
 			ls(new_dir, depth + 1);
 
